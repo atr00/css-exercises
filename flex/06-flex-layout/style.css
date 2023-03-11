@@ -21,8 +21,11 @@ button {
   border-radius: 8px;
   background: #eee;
   padding: 8px 12px;
-  box-shadow: 1px 1px 1px gray;
   width: 130px;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px gray;
 }
 
 input {
