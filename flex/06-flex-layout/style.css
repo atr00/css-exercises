@@ -28,12 +28,19 @@ button:hover {
   box-shadow: 1px 1px 1px gray;
 }
 
+.input {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
-  width: 400px;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 ul {
